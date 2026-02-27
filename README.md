@@ -1,3 +1,18 @@
+# Overview
+Implemented the Employees-R-Us platform using a layered architecture within the Spring Boot framework. Solution provides a RESTful API to manage employee records.
+
+# Key features
+Separation of concern across Controller, Service and Model layers.
+EmployeeServiceImpl manages mock data stores, handles UUID gen for new records and auto formats full names.
+
+Implemented standard HTTP status codes including 201 CREATED for new records and 404 Not Found for invalid inputs.
+
+# How to Run
+1) Navigate to root directory: entry-level-java-challenge
+2) Clean and Build: .\gradlew clean build
+3) Run: .\gradlew :api:bootRun
+4) Test endpoints at http://localhost:8080/api/v1/employee
+
 # ReliaQuest's Entry-Level Java Challenge
 
 Please keep the following in mind while working on this challenge:
